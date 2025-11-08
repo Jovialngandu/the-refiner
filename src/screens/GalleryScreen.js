@@ -226,7 +226,8 @@ export default function GalleryScreen() {
 	<View style={styles.container}>
 		<View style={styles.selectionContainer}>
 		<Text style={styles.title}>Sélectionner un fichier</Text>
-		<Text style={styles.subtitle}>Choisissez une image ou une vidéo de votre galerie pour l'améliorer</Text>
+		{/* <Text style={styles.subtitle}>Choisissez une image ou une vidéo de votre galerie pour l'améliorer</Text> */}
+		<Text style={styles.subtitle}>Choisissez une image  de votre galerie pour l'améliorer</Text>
 
 		<View style={styles.optionsContainer}>
 			<TouchableOpacity style={styles.optionCard} onPress={pickImage}>
@@ -237,13 +238,13 @@ export default function GalleryScreen() {
 			<Text style={styles.optionDescription}>Sélectionner une photo de votre galerie</Text>
 			</TouchableOpacity>
 
-			<TouchableOpacity style={styles.optionCard} onPress={pickVideo}>
+			{/* <TouchableOpacity style={styles.optionCard} onPress={pickVideo}>
 			<View style={styles.iconContainer}>
 				<Ionicons name="videocam-outline" size={64} color="#6366f1" />
 			</View>
 			<Text style={styles.optionTitle}>Vidéo</Text>
 			<Text style={styles.optionDescription}>Sélectionner une vidéo de votre galerie</Text>
-			</TouchableOpacity>
+			</TouchableOpacity> */}
 		</View>
 
 		<View style={styles.infoBox}>
@@ -286,6 +287,7 @@ const styles = StyleSheet.create({
 		borderRadius: 16,
 		padding: 30,
 		alignItems: "center",
+		marginTop:30,
 		shadowColor: "#000",
 		shadowOffset: { width: 0, height: 2 },
 		shadowOpacity: 0.1,
