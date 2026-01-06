@@ -9,10 +9,7 @@ Application mobile de traitement média par API développée avec React Native e
 - **Historique**: Consultez tous vos médias traités
 - **Sauvegarde Locale**: Enregistrez les résultats dans votre galerie
 
-<div align="center">
-  <video src="assets/docs/demo.mp4" controls autoplay loop muted width="300" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.2);">
-  </video>
-</div>
+![Démo](/assets/docs/demo.gif)
 ## 🚀 Installation
 
 ### Prérequis
