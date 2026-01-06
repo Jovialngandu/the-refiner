@@ -8,8 +8,10 @@ Application mobile de traitement média par API développée avec React Native e
 - **Upload de Fichiers**: Sélectionnez des images existantes pour traitement
 - **Historique**: Consultez tous vos médias traités
 - **Sauvegarde Locale**: Enregistrez les résultats dans votre galerie
-
-![Démo](/assets/docs/demo.gif)
+<p align="center">
+  <img src="assets/docs/ref1.png" width="300" />
+  <img src="assets/docs/ref2.png" width="300" />
+</p>
 ## 🚀 Installation
 
 ### Prérequis
